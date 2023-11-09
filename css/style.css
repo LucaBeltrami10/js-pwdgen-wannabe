@@ -8,3 +8,7 @@ body div{
     text-align: center;
     margin-top: 8rem;
 }
+
+body div p{
+    margin-top: 4rem;
+}
