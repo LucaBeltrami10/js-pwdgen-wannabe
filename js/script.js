@@ -6,3 +6,4 @@ let yourNewPassword="----"
 
 const selectedName=parseInt(prompt(askName))
 const selectedSurname=parseInt(prompt(askSurname))
+const selectedColor=parseInt(prompt(askColor))
