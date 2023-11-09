@@ -6,10 +6,14 @@ let yourNewPassword
 
 
 
-const selectedName = parseInt(prompt(askName))
-const selectedSurname = parseInt(prompt(askSurname))
-const selectedColor = parseInt(prompt(askColor))
+const selectedName = prompt(askName)
+const selectedSurname = prompt(askSurname)
+const selectedColor = prompt(askColor)
+
+console.log(selectedName)
+console.log(selectedSurname)
+console.log(selectedColor)
 
 yourNewPassword = selectedName + selectedSurname + selectedColor
 
-document.getElementById('your-new-password').innerHTML = 'La tua nuova sicurissima password è' + yourNewPassword 
+document.getElementById('your-new-password').innerHTML = 'La tua nuova sicurissima password è: ' + yourNewPassword 
