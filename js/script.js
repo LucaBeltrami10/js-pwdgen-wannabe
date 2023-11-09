@@ -5,3 +5,4 @@ const askColor="inserisci il tuo colore preferito";
 let yourNewPassword="----"
 
 const selectedName=parseInt(prompt(askName))
+const selectedSurname=parseInt(prompt(askSurname))
