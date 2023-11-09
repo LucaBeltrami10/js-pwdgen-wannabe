@@ -12,4 +12,4 @@ const selectedColor = parseInt(prompt(askColor))
 
 yourNewPassword = selectedName + selectedSurname + selectedColor
 
-console.log(yourNewPassword)
+document.getElementById('your-new-password').innerHTML = 'La tua nuova sicurissima password è' + yourNewPassword 
